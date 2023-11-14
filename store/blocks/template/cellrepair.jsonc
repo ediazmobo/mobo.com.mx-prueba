@@ -9,8 +9,7 @@
         "children":[
             "slider-layout#slider-cellrepair",
             "flex-layout.row#row-title-cellRepair",
-            "store-list#listaCellrepair",
-            "store-map#mapaCellrepair",
+            // "store-map#mapaCellrepair",
             "flex-layout.row#rowTxtSubTitulo",
             "flex-layout.row#rowTxtTecnicos",
             "flex-layout.row#rowImgsCell",
@@ -27,8 +26,7 @@
         "children":[
           "slider-layout#slider-cellrepair",
           "flex-layout.row#row-title-cellRepair",
-          "store-list#listaCellrepair",
-          "store-map#mapaCellrepair",
+          // "store-map#mapaCellrepair",
           "flex-layout.row#rowTxtSubTitulo",
           "flex-layout.row#rowTxtTecnicos",
           "list-context.image-list#sliderServicios-mobile",
@@ -107,10 +105,7 @@
             "preventVerticalStretch": true,
             "width": "100%",
             "horizontalAlign": "center"
-        },
-        "children": [
-            "store-list#listaCellrepair"  
-        ]
+        }
       },
       "flex-layout.col#mapa": {
         "props": {
@@ -118,25 +113,7 @@
             //"colSizing": "auto",
             "width": "100%",
             "horizontalAlign": "center"
-        },
-        "children": [
-            "store-map#mapaCellrepair"  
-        ]
-      },
-      "store-list#listaCellrepair":{
-        "props":{
-            "filterByTag": "cellrepair",
-            "sortBy": "name"
         }
-      },
-      "store-map#mapaCellrepair":{
-        "props":{
-            "zoom": 15,
-            "icon": "/arquivos/pin-location-cellrepair.png",
-            "fullWidth": true,
-            "maxWidth": "100%"
-        }
-
       },
       "flex-layout.row#rowTxtSubTitulo": {
         "children": ["flex-layout.col#colTxtSubTitulo"],
