@@ -13,7 +13,7 @@
                     "type": "array",
                     "minItems": 0,
                     "items": {
-                        "$ref": "app:mobomx.minimumtheme#/definitions/Slide"
+                        "$ref": "app:mobotest.minimumtheme#/definitions/Slide"
                     }
                 }
             }

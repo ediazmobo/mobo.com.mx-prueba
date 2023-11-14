@@ -20,7 +20,7 @@
     "main-slider":{
         "component": "MainSlider",
         "content": {
-			"$ref": "app:mobomx.minimumtheme#/definitions/MainSlider"
+			"$ref": "app:mobotest.minimumtheme#/definitions/MainSlider"
 		}
     },
     "pdp-features":{

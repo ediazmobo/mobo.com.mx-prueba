@@ -17,7 +17,7 @@ const InputContainer = props => {
 
     const modifyText=text.substr(0,text.length-1); //&& text.replaceAll('*','');
 
-    const baseClass='mobomx-minimumtheme-0-x-';
+    const baseClass='mobotest-minimumtheme-0-x-';
     let finalClass='';
 
     const extraClass=props.extraClass ? props.extraClass :''
